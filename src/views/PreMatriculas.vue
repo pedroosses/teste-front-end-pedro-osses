@@ -3,7 +3,7 @@
     <div class="col">
         <div class="itens-rows">
             <h1 class="text-black">Pré matriculas</h1>
-            <h5>Em breve...</h5>
+            <h5>Em produção</h5>
         </div>
     </div>
 </div>
