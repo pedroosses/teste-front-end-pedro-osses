@@ -3,10 +3,14 @@
 
     <header-main></header-main>
 
-    <footer-main></footer-main>
-    
     <history-main></history-main>
 
+    <section id="modal-content">
+      <router-view />
+    </section>
+
+    <footer-main></footer-main>
+    
   </div>
 </template>
 
