@@ -1,8 +1,11 @@
 <template>
   <div id="app">
-    <!-- START HEADER -->
+
     <header-main></header-main>
-    <!-- END HEADER -->
+
+    <footer-main></footer-main>
+    
+    <history-main></history-main>
 
   </div>
 </template>
@@ -10,12 +13,17 @@
 <script>
 
 import HeaderMain from "@/components/Header.vue";
+import FooterMain from "@/components/Footer.vue";
+import HistoryMain from "@/components/Menu.vue";
 
 
 export default {
   name: "App",
   components: {
     HeaderMain,
+    FooterMain,
+    HistoryMain,
+
   
   },
 };
