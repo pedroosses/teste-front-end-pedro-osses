@@ -5,8 +5,8 @@
 
     <history-main></history-main>
 
-    <section id="modal-content">
-      <router-view />
+    <section id="content">
+      <BolsasFavoritas/>
     </section>
 
     <footer-main></footer-main>
@@ -17,16 +17,20 @@
 <script>
 
 import HeaderMain from "@/components/Header.vue";
-import FooterMain from "@/components/Footer.vue";
 import HistoryMain from "@/components/Menu.vue";
+import FooterMain from "@/components/Footer.vue";
+import BolsasFavoritas from "./views/BolsasFavoritas.vue";
+
 
 
 export default {
   name: "App",
   components: {
     HeaderMain,
-    FooterMain,
     HistoryMain,
+    BolsasFavoritas,
+    FooterMain,
+ 
 
   
   },
