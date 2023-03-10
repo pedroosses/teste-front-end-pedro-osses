@@ -74,11 +74,14 @@
                         <div>
                             <label>Resultado:</label>
                         </div>
-                        <!-- Ordenação, não será implementada por falta de tempo -->
+
                         <div>
                             <label for="ordenacao">Ordenar por</label>
-                            <select class="selectOrdenacao" name="ordenacao" id="ordenacao">
-                                <option value="1">São José dos Campos</option>
+                            <select class="selectOrdenacao" name="ordenacao" id="ordenacao" v-model="cidadeSelected">
+                                <option value="São José dos Campos">São José dos Campos</option>
+                                <option value="São Paulo">São Paulo</option>
+                                <option value="Fortaleza">Fortaleza</option>
+                                <option value="Jacareí">Jacareí</option>
                             </select>
                         </div>
                     </div>
@@ -166,7 +169,7 @@
                 modalShow: false,
                 listCursos: json,
                 cidadeSelected: 'São José dos Campos',
-                cursoSelected: '',
+                cursoSelected: 'Engenharia Mecânica',
             
                 listCidades: [],
                 arrayCursos: [],
