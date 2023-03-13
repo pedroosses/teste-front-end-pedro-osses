@@ -5,7 +5,6 @@
 </template>
 
 <script>
-/*eslint-env jquery*/
 
 export default {
     name: "HistoryMenu",

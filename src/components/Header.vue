@@ -38,7 +38,6 @@
             </div>
         </div>
 
-        <!-- Menu Secundario -->
         <div class="header-menu">
             <div class="col pointer" @click="navigate(false)">
                 <p>Minha conta</p>
@@ -134,7 +133,6 @@ export default {
     overflow: hidden;
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
     .m-txt {
         display: none;
@@ -154,7 +152,6 @@ export default {
     }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
     .whats-header {
         display: none;

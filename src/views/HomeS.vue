@@ -1,11 +1,11 @@
 <template>
-    <div class="container home-style"> 
-     <a href="/#/BolsasFavoritas"> <h4 class="text-blue">Clique aqui S2... </h4></a>
-    </div>
-  </template>
+<div class="container home-style">
+</div>
+</template>
+
   
-  <script>
-    export default {
-      name: "HomeS", 
-    };
-  </script>
+<script>
+export default {
+    name: "HomeS",
+};
+</script>

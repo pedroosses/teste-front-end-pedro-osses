@@ -53,22 +53,21 @@
 </footer>
 </template>
 
-  
 <script>
- export default {
-     name: "FooterMain",
-     props: {
-         msg: String,
-     },
-     data() {
-         return {
-             teste: "",
-         };
-     },
+export default {
+    name: "FooterMain",
+    props: {
+        msg: String,
+    },
+    data() {
+        return {
+            teste: "",
+        };
+    },
 
- };
+};
 </script>
-  
+
 <style scoped>
 /* Customer for  footer */
 .page-footer {
